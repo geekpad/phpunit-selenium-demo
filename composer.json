@@ -1,0 +1,10 @@
+{
+    "name": "geekpad/phpunit-selenium-demo",
+    "require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*",
+        "phpunit/phpunit-selenium": "1.3.*"
+    }
+}
