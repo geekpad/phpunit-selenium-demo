@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="./vendor/autoload.php">
+
+    <php>
+        <!-- define some constants to use in our test classes -->
+        <const name="PHPUNIT_TESTSUITE_EXTENSION_SELENIUM_HOST" value="127.0.0.1"/>
+        <const name="PHPUNIT_TESTSUITE_EXTENSION_SELENIUM_BASEURL" value="http://geekpad.ca/blog/demo/phpunit-selenium-demo"/>
+    </php>
+
+    <testsuites>
+        <testsuite name="Integration Tests">
+            <directory>tests/integration/</directory>
+        </testsuite>
+    </testsuites>
+
+</phpunit>
