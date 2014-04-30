@@ -1,0 +1,25 @@
+body {
+    width: 500px;
+    margin: auto;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.box {
+    border: 1px solid #000;
+    border-radius: 3px; 
+    padding: 3px 5px;
+    margin: 3px 0 7px 0;
+}
+
+.intro {
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    color: #31708f;
+}
+
+.message {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+}
