@@ -28,7 +28,7 @@ if (count($_POST) > 0) {
         </style>
     </head>
     <body>
-        <form method="POST">
+        <form class="login" method="POST">
             <h1>Login Page</h1>
             <?php if (strlen($message) > 0): ?>
             <div class="message"><?php echo htmlspecialchars($message, ENT_QUOTES); ?></div>
